@@ -4,7 +4,7 @@
 
 Selamlar, bu uygulama kullanıcıların dünya mutfağından birçok farklı yemeğe kolayca ulaşmasını, öğünlere göre listeleme yapabilmesini ve istedikleri yemeği aratarak hızlıca bulmasını sağlar.
 
-Demo: #
+Demo: react-recipe-app-three-kohl.vercel.app
 
 ---
 
@@ -28,9 +28,9 @@ Demo: #
 
 ### Kurulum ve Kullanım:
 
-- **Klonlama:** `git clone https://github.com/kullaniciadi/yemek-tarifleri.git`
+- **Klonlama:** `git clone https://github.com/gokhandemr/react-recipe-app.git`
 - **Npm Yükleme:** `npm install`
-- **Çalıştırma:** `npm dev`
+- **Çalıştırma:** `npm run dev`
 
 ---
 
