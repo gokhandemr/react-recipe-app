@@ -1,0 +1,137 @@
+.recipeName {
+    font-size: 48px;
+    margin: 48px 0 12px 0;
+    text-align: center;
+}
+
+.recipeDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 36px;
+}
+
+.recipeDetails>p {
+    display: flex;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.recipeDetails>p>span {
+    margin-right: 8px;
+}
+
+.recipeWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.ingredients,
+.instructions {
+    background: #fdf7f0;
+    width: 30%;
+    padding: 36px;
+}
+
+.ingredients h3,
+.instructions h3 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.ingredients h3 span,
+.instructions h3 span {
+    margin-right: 8px;
+}
+
+.recipeWrapper img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 0 8px 3px #0000003b;
+    z-index: 10;
+}
+
+.responsiveImage {
+    display: none;
+}
+
+.instructions ul,
+.ingredients ul {
+    padding: 0 24px;
+}
+
+.instructions ul li,
+.ingredients ul li {
+    margin: 24px 0;
+    color: #3f3939;
+}
+
+.instructions ul li {
+    list-style: decimal;
+}
+
+.ingredients ul li {
+    list-style: disc;
+}
+
+/* Dark Theme */
+.darkTheme .ingredients,
+.darkTheme .instructions {
+    background: #ffffff14;
+}
+
+.darkTheme .instructions ul li,
+.darkTheme .ingredients ul li {
+    color: #aaa;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .recipeName {
+        font-size: 24px;
+        margin: 48px 0 24px 0;
+    }
+
+    .recipeDetails {
+        justify-content: space-around;
+        margin-bottom: 12px;
+    }
+
+    .recipeDetails>p {
+        font-size: 13px;
+        margin: 0;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .recipeDetails>p>span {
+        margin: 0;
+    }
+
+    .recipeWrapper {
+        flex-wrap: wrap;
+    }
+
+    .recipeWrapper img {
+        display: none;
+    }
+
+    .recipeWrapper .responsiveImage {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .ingredients,
+    .instructions {
+        width: 100%;
+    }
+}
