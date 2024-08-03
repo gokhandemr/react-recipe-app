@@ -4,7 +4,7 @@
 
 Selamlar, bu uygulama kullanıcıların dünya mutfağından birçok farklı yemeğe kolayca ulaşmasını, öğünlere göre listeleme yapabilmesini ve istedikleri yemeği aratarak hızlıca bulmasını sağlar.
 
-Demo: react-recipe-app-three-kohl.vercel.app
+Demo: https://react-recipe-app-three-kohl.vercel.app/
 
 ---
 
